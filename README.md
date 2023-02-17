@@ -1,22 +1,27 @@
-# Loan Prediction
-It’s a classification problem, given information about the application we have to predict whether the they’ll be to pay the loan or not.
+## About Dataset
+Context
+This dataset belongs to a Hackathon organized by "Univ.AI"!!
 
-The data consists of the following rows:
-<pre>
-Loan ID: Unique Loan ID
-Gender: Male/Female
-Married Status: Yes/No
-Dependents: Number of dependents 
-Education: Applicant Education (Graduate/Not Graduate)
-Self Employed: Yes/No
-ApplicantIncome: Applicant Income
-Coapplicant Income: Coapplicant Income
-Loan Amount: Loan amount in thousands of dollars
-Loan Amount Term: Term of loan in months
-Credit History: credit history meets guidelines yes or no
-Property Area: Urban/Semi Urban/Rural
-Loan Status: Loan approved (Yes/No) this is the target variable
+Content
+All values were provided at the time of the loan application.
+
+Column	Description	Type
+income	Income of the user	int
+age	Age of the user	int
+experience	Professional experience of the user in years	int
+profession	Profession	string
+married	Whether married or single	string
+house_ownership	Owned or rented or neither	string
+car_ownership	Does the person own a car	string
+risk_flag	Defaulted on a loan	string
+current_job_years	Years of experience in the current job	int
+current_house_years	Number of years in the current residence	int
+city	City of residence	string
+state	State of residence	string
+The risk_flag indicates whether there has been a default in the past or not.
 </pre>
+
+Riesgo Loan puede predecir quiénes son los posibles morosos para el producto de creditos personales. Con mas de 250.000 datos sobre el comportamiento histórico de los clientes a traves de los datos ingresados. Por lo tanto, cuando adquieren nuevos clientes, se puede predecir y reducir el riesgo de morosidad.
 
 ## App
 ### Language 
@@ -28,8 +33,7 @@ Loan Status: Loan approved (Yes/No) this is the target variable
 ### How to run app
 `pyton app.py`
 
-### Link 
-https://loan-prediction9.herokuapp.com
+
 
 <br>
 <img src="https://user-images.githubusercontent.com/85934122/173180065-065b1fec-8dd9-4dac-8524-b8198929c70a.png" width="650">
